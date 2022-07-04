@@ -1,17 +1,26 @@
 from azure.servicebus import ServiceBusClient, ServiceBusMessage
 import json
 from uuid import uuid4
+import sys
 
 connstr = "Endpoint=sb://chatbot-dn-dev.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=QnEHC0FxdyuKL4v/WiW9LSiyX/Hc8TMwC+T7OPyZJqI="
 queue_name = "stage-request"
 
-message = input("Message: ")
+# message = input("Message: ")
+message = sys.argv[2:]
+message = "".join((i + " ") for i in message)
+
+session_id = sys.argv[1]
+
+# print(sys.argv)
+
+print(f'USUÁRIO => {message}')
 
 data = {
     "action":"message_request_bot",  #finish_call
     "payload":{
         "agent_id":"27b5dd19-c3fd-481b-a913-c609045abe47",
-        "session_id":"49ac0faa-13c2-4a3f-8d5f-4f7a4560fd28", #inciar uma conversa, tem que mudar id
+        "session_id": session_id, # mudar id ao iniciar conversa
         "text": message,
         "language_code":"pt-br"
         },

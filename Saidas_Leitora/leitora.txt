@@ -1,0 +1,5 @@
+USUÁRIO => Oi 
+USUÁRIO => Leitora 
+USUÁRIO => Sim 
+USUÁRIO => ATM voltou a funcionar 
+USUÁRIO => Não 

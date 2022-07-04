@@ -1,0 +1,54 @@
+USUÁRIO => Oi 
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+RESPOSTA DA DANI =>  {
+  "message": "Até a próxima. 👋  ",
+  "is_end_session": true,
+  "problem_tag": null,
+  "is_solved": true,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Leitora 
+RESPOSTA DA DANI =>  {
+  "message": "Não, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Sim 
+USUÁRIO => ATM ainda não operante 
+RESPOSTA DA DANI =>  {
+  "message": "Desculpe. Não compreendi. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => ATM ainda não operante 
+RESPOSTA DA DANI =>  {
+  "message": "Nesse caso, é necessário realizar a abertura de um chamado técnico. Deseja algo mais? Selecione SIM, caso deseje algo mais\nSelecione NÃO, caso deseje encerrar.   ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}

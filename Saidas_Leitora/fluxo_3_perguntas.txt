@@ -1,0 +1,71 @@
+USUÁRIO => Oi 
+RESPOSTA DA DANI =>  {
+  "message": "Desculpe. Não compreendi. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Leitora 
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Sim 
+RESPOSTA DA DANI =>  {
+  "message": "Conseguimos resolver seu problema.  Que ótimo! 😀 Deseja algo mais?  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+RESPOSTA DA DANI =>  {
+  "message": "Desculpe. Não compreendi. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => ATM ainda não operante 
+RESPOSTA DA DANI =>  {
+  "message": "Verifique na parte frontal do equipamento se há objeto obstruindo ou interferindo a entrada de cartão na leitora.  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "ATM voltou a funcionar",
+        "ATM ainda não operante"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+USUÁRIO => Não 
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}

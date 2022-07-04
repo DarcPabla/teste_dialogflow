@@ -1,0 +1,62 @@
+USUÁRIO => Oi 
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Leitora 
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Sim 
+USUÁRIO => ATM voltou a funcionar 
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+USUÁRIO => Sim 
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": null
+}
+RESPOSTA DA DANI =>  {
+  "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
