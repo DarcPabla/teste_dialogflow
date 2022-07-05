@@ -7,12 +7,13 @@ connstr = "Endpoint=sb://chatbot-dn-dev.servicebus.windows.net/;SharedAccessKeyN
 queue_name = "stage-request"
 
 # message = input("Message: ")
-message = sys.argv[2:]
+message = sys.argv[3:]
 message = "".join((i + " ") for i in message)
 
-session_id = sys.argv[1]
+session_id = sys.argv[2]
+correlation_id = sys.argv[1]
 
-# print(sys.argv)
+print(sys.argv)
 
 print(f'USUÁRIO => {message}')
 
@@ -24,7 +25,7 @@ data = {
         "text": message,
         "language_code":"pt-br"
         },
-    "correlation_id":"bb79e213-f854-4e56-9886-405d36fb7543"
+    "correlation_id": correlation_id
     }
 
 

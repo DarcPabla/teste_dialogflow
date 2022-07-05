@@ -1,54 +1,11 @@
+['sender.py', 'b1da8992-dcd1-46a2-b26e-c59c6ac6296b', '01c15d46-9631-4c58-995b-7dbbe9cb1558', 'Oi']
 USUÁRIO => Oi 
-RESPOSTA DA DANI =>  {
-  "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
-  "is_end_session": false,
-  "problem_tag": null,
-  "is_solved": null,
-  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
-  "component": null
-}
-USUÁRIO => Leitora 
-RESPOSTA DA DANI =>  {
-  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
-  "is_end_session": false,
-  "problem_tag": null,
-  "is_solved": null,
-  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
-  "component": null
-}
-RESPOSTA DA DANI =>  {
-  "message": "",
-  "is_end_session": false,
-  "problem_tag": null,
-  "is_solved": null,
-  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
-  "component": null
-}
-USUÁRIO => Sim 
-USUÁRIO => ATM voltou a funcionar 
-RESPOSTA DA DANI =>  {
-  "message": "",
-  "is_end_session": false,
-  "problem_tag": null,
-  "is_solved": null,
-  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
-  "component": null
-}
-USUÁRIO => Sim 
-RESPOSTA DA DANI =>  {
-  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
-  "is_end_session": false,
-  "problem_tag": null,
-  "is_solved": null,
-  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
-  "component": null
-}
 RESPOSTA DA DANI =>  {
   "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
   "is_end_session": false,
   "problem_tag": null,
   "is_solved": null,
-  "correlation_id": "bb79e213-f854-4e56-9886-405d36fb7543",
+  "correlation_id": "60c5ca9d-caac-47a9-b263-2a566012a127",
   "component": {
     "type": "chips",
     "content": {
@@ -60,3 +17,69 @@ RESPOSTA DA DANI =>  {
     }
   }
 }
+Correlation id error
+None
+b1da8992-dcd1-46a2-b26e-c59c6ac6296b
+['sender.py', 'fc6826a4-3ba6-4644-a0ef-37fc21bd4466', '01c15d46-9631-4c58-995b-7dbbe9cb1558', 'Leitora']
+USUÁRIO => Leitora 
+Não tem novas mss disponiveis
+['sender.py', 'b5f6ad87-f94a-45b1-9df4-a1ee3dda7028', '01c15d46-9631-4c58-995b-7dbbe9cb1558', 'Sim']
+USUÁRIO => Sim 
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "b5f6ad87-f94a-45b1-9df4-a1ee3dda7028",
+  "component": null
+}
+Correlation id error
+None
+b5f6ad87-f94a-45b1-9df4-a1ee3dda7028
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "b1da8992-dcd1-46a2-b26e-c59c6ac6296b",
+  "component": null
+}
+Correlation id error
+None
+b5f6ad87-f94a-45b1-9df4-a1ee3dda7028
+['sender.py', '3db3e526-d023-47a1-9499-e8c1dca827f4', '01c15d46-9631-4c58-995b-7dbbe9cb1558', 'ATM', 'voltou', 'a', 'funcionar']
+USUÁRIO => ATM voltou a funcionar 
+RESPOSTA DA DANI =>  {
+  "message": "Identifiquei que o seu problema é relacionado ao modulo pagador. Selecione SIM se o defeito for um dos listados abaixo:\n\n- Módulo pagador não gira;\n- Módulo gira, mas não entra em operação;\n- Cassetes com led’s vermelho;\n- Cassetes apagados;\n\nSelecione NÃO caso contrário.  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "3db3e526-d023-47a1-9499-e8c1dca827f4",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+3db3e526-d023-47a1-9499-e8c1dca827f4
+RESPOSTA DA DANI =>  {
+  "message": "Desculpe. Não compreendi. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "fc6826a4-3ba6-4644-a0ef-37fc21bd4466",
+  "component": null
+}
+Correlation id error
+None
+3db3e526-d023-47a1-9499-e8c1dca827f4
+['sender.py', '1eefd9ca-d118-43dd-8719-6ecb78a65026', '01c15d46-9631-4c58-995b-7dbbe9cb1558', 'Sim']
+USUÁRIO => Sim 
+Não tem novas mss disponiveis

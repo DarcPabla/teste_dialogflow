@@ -1,0 +1,46 @@
+['sender.py', 'fe1bae4e-341f-4295-8d63-8aea6f95bf90', '190757ff-5f10-4bf9-a59d-989cf21011c5', 'Oi']
+USUÁRIO => Oi 
+RESPOSTA DA DANI =>  {
+  "message": "Desculpe. Não compreendi. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "899aca4e-3d40-42db-98fc-6a00395e024c",
+  "component": null
+}
+Correlation id error
+None
+fe1bae4e-341f-4295-8d63-8aea6f95bf90
+['sender.py', '60c5ca9d-caac-47a9-b263-2a566012a127', '190757ff-5f10-4bf9-a59d-989cf21011c5', 'Leitora']
+USUÁRIO => Leitora 
+Não tem novas mss disponiveis
+['sender.py', '2947ff88-dc87-45a7-a61b-44d1b8053f4e', '190757ff-5f10-4bf9-a59d-989cf21011c5', 'Sim']
+USUÁRIO => Sim 
+Não tem novas mss disponiveis
+['sender.py', 'b6632b72-6fd4-48da-95db-8414b428de83', '190757ff-5f10-4bf9-a59d-989cf21011c5', 'ATM', 'voltou', 'a', 'funcionar']
+USUÁRIO => ATM voltou a funcionar 
+Não tem novas mss disponiveis
+['sender.py', '034cc6f7-1cf0-4908-9551-4df3e8272f94', '190757ff-5f10-4bf9-a59d-989cf21011c5', 'Não']
+USUÁRIO => Não 
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "2947ff88-dc87-45a7-a61b-44d1b8053f4e",
+  "component": null
+}
+Correlation id error
+None
+034cc6f7-1cf0-4908-9551-4df3e8272f94
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "fe1bae4e-341f-4295-8d63-8aea6f95bf90",
+  "component": null
+}
+Correlation id error
+None
+034cc6f7-1cf0-4908-9551-4df3e8272f94
