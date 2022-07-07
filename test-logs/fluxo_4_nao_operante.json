@@ -1,0 +1,124 @@
+[
+  {
+    "sender": "user",
+    "message": "Oi",
+    "correlation_id": "dd1ecf61-f878-4b3e-9695-d9346132f61e"
+  },
+  {
+    "sender": "bot",
+    "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "dd1ecf61-f878-4b3e-9695-d9346132f61e",
+    "component": null
+  },
+  {
+    "sender": "user",
+    "message": "Leitora",
+    "correlation_id": "f02486a0-6b08-487b-a8b2-1ec8bce1a462"
+  },
+  {
+    "sender": "bot",
+    "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "f02486a0-6b08-487b-a8b2-1ec8bce1a462",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "Sim",
+          "Não"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "Sim",
+    "correlation_id": "6da7eb24-a304-4f84-95a9-2614af0f8224"
+  },
+  {
+    "sender": "bot",
+    "message": "Verifique na parte frontal do equipamento se há objeto obstruindo ou interferindo a entrada de cartão na leitora.  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "6da7eb24-a304-4f84-95a9-2614af0f8224",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "ATM voltou a funcionar",
+          "ATM ainda não operante"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "ATM ainda não operante",
+    "correlation_id": "a8b17db7-26f4-4f89-90e0-60520f3bcc6e"
+  },
+  {
+    "sender": "bot",
+    "message": "Tente realizar testes com outros cartões. O cartão do cliente pode está danificado ou mau conservado.\n  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "a8b17db7-26f4-4f89-90e0-60520f3bcc6e",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "ATM voltou a funcionar",
+          "ATM ainda não operante"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "ATM ainda não operante",
+    "correlation_id": "4c357045-c5c4-4b3a-850e-971a9e09937d"
+  },
+  {
+    "sender": "bot",
+    "message": "Nesse caso, é necessário realizar a abertura de um chamado técnico. Deseja algo mais? Selecione SIM, caso deseje algo mais\nSelecione NÃO, caso deseje encerrar.   ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "4c357045-c5c4-4b3a-850e-971a9e09937d",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "Sim",
+          "Não"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "Não",
+    "correlation_id": "ebbb5502-149c-4e5a-8f6a-34c6ff952763"
+  },
+  {
+    "sender": "bot",
+    "message": "Até a próxima. 👋  ",
+    "is_end_session": true,
+    "problem_tag": [
+      "#009"
+    ],
+    "is_solved": false,
+    "correlation_id": "ebbb5502-149c-4e5a-8f6a-34c6ff952763",
+    "component": null
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "sender": "user",
+    "message": "Oi",
+    "correlation_id": "df9c4dc1-fc67-43ae-a802-a581e969dadd"
+  },
+  {
+    "sender": "bot",
+    "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "df9c4dc1-fc67-43ae-a802-a581e969dadd",
+    "component": null
+  },
+  {
+    "sender": "user",
+    "message": "Leitora",
+    "correlation_id": "713d4c5c-b01a-4dbd-a34d-297e05883410"
+  },
+  {
+    "sender": "bot",
+    "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "713d4c5c-b01a-4dbd-a34d-297e05883410",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "Sim",
+          "Não"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "Sim",
+    "correlation_id": "25ef1e06-dd94-4dc1-8f77-4e43d82d0b2a"
+  },
+  {
+    "sender": "bot",
+    "message": "Verifique na parte frontal do equipamento se há objeto obstruindo ou interferindo a entrada de cartão na leitora.  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "25ef1e06-dd94-4dc1-8f77-4e43d82d0b2a",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "ATM voltou a funcionar",
+          "ATM ainda não operante"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "ATM voltou a funcionar",
+    "correlation_id": "d27aaf60-ddc5-4db0-a24b-401c5fa62d2d"
+  },
+  {
+    "sender": "bot",
+    "message": "Conseguimos resolver seu problema.  Que ótimo! 😀 Deseja algo mais?  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "d27aaf60-ddc5-4db0-a24b-401c5fa62d2d",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "Sim",
+          "Não"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "Não",
+    "correlation_id": "e5217a44-3686-4858-babf-fb0c99d2c220"
+  },
+  {
+    "sender": "bot",
+    "message": "Até a próxima. 👋  ",
+    "is_end_session": true,
+    "problem_tag": [
+      "#009"
+    ],
+    "is_solved": true,
+    "correlation_id": "e5217a44-3686-4858-babf-fb0c99d2c220",
+    "component": null
+  }
+]

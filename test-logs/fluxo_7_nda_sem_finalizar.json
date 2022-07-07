@@ -1,0 +1,76 @@
+[
+  {
+    "sender": "user",
+    "message": "Oi",
+    "correlation_id": "aedb57a6-a0e8-49e9-b503-a3606f71fbaf"
+  },
+  {
+    "sender": "bot",
+    "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "aedb57a6-a0e8-49e9-b503-a3606f71fbaf",
+    "component": null
+  },
+  {
+    "sender": "user",
+    "message": "Leitora",
+    "correlation_id": "437af655-6a5d-473f-9710-af6e7ac5bf00"
+  },
+  {
+    "sender": "bot",
+    "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "437af655-6a5d-473f-9710-af6e7ac5bf00",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "Sim",
+          "Não"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "Não",
+    "correlation_id": "33b9b66e-f992-4d35-8ee8-272d3cda6cb4"
+  },
+  {
+    "sender": "bot",
+    "message": "Nesse caso, é necessário realizar a abertura de um chamado técnico. Deseja algo mais? Selecione SIM, caso deseje algo mais\nSelecione NÃO, caso deseje encerrar.   ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "33b9b66e-f992-4d35-8ee8-272d3cda6cb4",
+    "component": {
+      "type": "chips",
+      "content": {
+        "values": [
+          "Sim",
+          "Não"
+        ],
+        "is_keyboard_enable": false
+      }
+    }
+  },
+  {
+    "sender": "user",
+    "message": "Sim",
+    "correlation_id": "071cdac8-240d-4191-8885-f055e70c1a1f"
+  },
+  {
+    "sender": "bot",
+    "message": "Em que posso ajudar? ",
+    "is_end_session": false,
+    "problem_tag": null,
+    "is_solved": null,
+    "correlation_id": "071cdac8-240d-4191-8885-f055e70c1a1f",
+    "component": null
+  }
+]
