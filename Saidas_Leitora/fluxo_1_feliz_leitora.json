@@ -1,0 +1,546 @@
+['sender.py', '208e4226-8f56-476c-99bc-8616f0c84e0c', 'f042f416-1616-461b-9950-69091092c040', 'Oi']
+USUÁRIO => Oi 
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Infelizmente, não captei o que deseja.\n\nDigite ou selecione um módulo que você acha que está com problema:  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "MONITOR DE VÍDEO",
+        "IMPRESSORA DE RECIBOS",
+        "LEITORA DE CARTÕES",
+        "BIOMETRIA",
+        "SISTEMA OPERACIONAL",
+        "MÓDULO DE PAGAMENTO",
+        "ENROSCO DE CÉDULAS",
+        "FALHA NO SISTEMA DE ENTINTAMENTO"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Não consegui compreender, desculpe. Nesse caso, é necessário realizar a abertura de um chamado técnico. Deseja algo mais? Selecione SIM, caso deseje algo mais\nSelecione NÃO, caso deseje encerrar.   ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Desculpe. Não compreendi. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+208e4226-8f56-476c-99bc-8616f0c84e0c
+
+['sender.py', 'beafe714-ebcf-4171-961e-0518785cfe50', 'f042f416-1616-461b-9950-69091092c040', 'Leitora']
+USUÁRIO => Leitora 
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+beafe714-ebcf-4171-961e-0518785cfe50
+
+['sender.py', 'a56e526f-4df7-41c9-87fe-17c0dd711ae1', 'f042f416-1616-461b-9950-69091092c040', 'Sim']
+USUÁRIO => Sim 
+RESPOSTA DA DANI =>  {
+  "message": "Não compreendi. Responda com SIM ou NÃO. ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Até a próxima. 👋  ",
+  "is_end_session": true,
+  "problem_tag": [],
+  "is_solved": false,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Infelizmente, não captei o que deseja.\n\nDigite ou selecione um módulo que você acha que está com problema:  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "MONITOR DE VÍDEO",
+        "IMPRESSORA DE RECIBOS",
+        "LEITORA DE CARTÕES",
+        "BIOMETRIA",
+        "SISTEMA OPERACIONAL",
+        "MÓDULO DE PAGAMENTO",
+        "ENROSCO DE CÉDULAS",
+        "FALHA NO SISTEMA DE ENTINTAMENTO"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "o, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Infelizmente, não captei o que deseja.\n\nDigite ou selecione um módulo que você acha que está com problema:  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "MONITOR DE VÍDEO",
+        "IMPRESSORA DE RECIBOS",
+        "LEITORA DE CARTÕES",
+        "BIOMETRIA",
+        "SISTEMA OPERACIONAL",
+        "MÓDULO DE PAGAMENTO",
+        "ENROSCO DE CÉDULAS",
+        "FALHA NO SISTEMA DE ENTINTAMENTO"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Não consegui compreender, desculpe. Nesse caso, é necessário realizar a abertura de um chamado técnico. Deseja algo mais? Selecione SIM, caso deseje algo mais\nSelecione NÃO, caso deseje encerrar.   ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Até a próxima. 👋  ",
+  "is_end_session": true,
+  "problem_tag": [],
+  "is_solved": false,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Sua Assistente virtual da Diebold 🤖 \n\nDesculpe, mas não compreendi seu problema. Você pode descrever melhor por favor.\n ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+a56e526f-4df7-41c9-87fe-17c0dd711ae1
+
+['sender.py', '8406858a-9b7b-45b9-84bf-64db6029800c', 'f042f416-1616-461b-9950-69091092c040', 'ATM', 'voltou', 'a', 'funcionar']
+USUÁRIO => ATM voltou a funcionar 
+RESPOSTA DA DANI =>  {
+  "message": "o, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "30711dba-f93d-4263-a414-7df69b0afc2f",
+  "component": null
+}
+Correlation id error
+None
+8406858a-9b7b-45b9-84bf-64db6029800c
+
+RESPOSTA DA DANI =>  {
+  "message": "O, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "374640e4-339f-4b8e-958f-004e7e3217ab",
+  "component": null
+}
+Correlation id error
+None
+8406858a-9b7b-45b9-84bf-64db6029800c
+
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "208e4226-8f56-476c-99bc-8616f0c84e0c",
+  "component": null
+}
+Correlation id error
+None
+8406858a-9b7b-45b9-84bf-64db6029800c
+
+RESPOSTA DA DANI =>  {
+  "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "beafe714-ebcf-4171-961e-0518785cfe50",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+8406858a-9b7b-45b9-84bf-64db6029800c
+
+RESPOSTA DA DANI =>  {
+  "message": "Verifique na parte frontal do equipamento se há objeto obstruindo ou interferindo a entrada de cartão na leitora.  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "a56e526f-4df7-41c9-87fe-17c0dd711ae1",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "ATM voltou a funcionar",
+        "ATM ainda não operante"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+8406858a-9b7b-45b9-84bf-64db6029800c
+
+RESPOSTA DA DANI =>  {
+  "message": "Conseguimos resolver seu problema.  Que ótimo! 😀 Deseja algo mais?  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "8406858a-9b7b-45b9-84bf-64db6029800c",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+8406858a-9b7b-45b9-84bf-64db6029800c
+
+['sender.py', 'd4107705-f536-4ee7-b247-bba2dca5acca', 'f042f416-1616-461b-9950-69091092c040', 'Não']
+USUÁRIO => Não 
+RESPOSTA DA DANI =>  {
+  "message": "Até a próxima. 👋  ",
+  "is_end_session": true,
+  "problem_tag": [
+    "#009"
+  ],
+  "is_solved": true,
+  "correlation_id": "d4107705-f536-4ee7-b247-bba2dca5acca",
+  "component": null
+}
+Correlation id error
+None
+d4107705-f536-4ee7-b247-bba2dca5acca
+

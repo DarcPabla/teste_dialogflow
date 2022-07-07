@@ -24,6 +24,7 @@ QUEUE = "stage-response"
 QUEUE_NAME = os.getenv("SERVICE_BUS_QUEUE_NAME", None) or QUEUE
 
 correct_correlation_id = sys.argv[1]
+# correct_correlation_id = '196c33e7-b597-44aa-ba43-d21d547eab79'
 
 async def main():
     servicebus_client = ServiceBusClient.from_connection_string(conn_str=CONNECTION_STR)
@@ -36,11 +37,13 @@ async def main():
                 print ('Não tem novas mss disponiveis')
             for msg in received_msgs:
                 message = str(msg)
+                current_correlation_id = json.loads(message)['correlation_id']
                 print('RESPOSTA DA DANI => ', message)
-                if msg.correlation_id != correct_correlation_id:
+                if current_correlation_id != correct_correlation_id:
                     print('Correlation id error')
-                    print(msg.correlation_id)
+                    print(current_correlation_id)
                     print(correct_correlation_id)
+                    print('')
                 await receiver.complete_message(msg)
 
 asyncio.run(main())

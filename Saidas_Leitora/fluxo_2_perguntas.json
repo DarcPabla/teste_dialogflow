@@ -1,0 +1,97 @@
+['sender.py', '296c33e7-b597-44aa-ba43-d21d547eab79', '90508ebd-f4ce-4315-8372-5afbc60244ac', 'Oi']
+USUÁRIO => Oi 
+RESPOSTA DA DANI =>  {
+  "message": "Olá, sou a Dani. Seu Assistente virtual da Diebold 🤖 Qual o seu problema? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "296c33e7-b597-44aa-ba43-d21d547eab79",
+  "component": null
+}
+Correlation id error
+None
+296c33e7-b597-44aa-ba43-d21d547eab79
+
+['sender.py', '3c3cdc72-8cc2-427f-9f7b-6a8efe26de91', '90508ebd-f4ce-4315-8372-5afbc60244ac', 'Leitora']
+USUÁRIO => Leitora 
+RESPOSTA DA DANI =>  {
+  "message": "Identifiquei que o seu problema é relacionado a leitora de cartão - Leitora desabilitada no sistema;\n- Não lê cartão com tarja ou chip smart card;\n- Dificuldades para inserir e retirar o cartão da leitora;\n- Tela apagada e sirene disparada (skimming);\n- Outros problemas relacionados à leitora do cartão;\n\nVocê está com algum problema acima?  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "3c3cdc72-8cc2-427f-9f7b-6a8efe26de91",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+3c3cdc72-8cc2-427f-9f7b-6a8efe26de91
+
+['sender.py', '8c7bdabd-af44-4db1-b7b7-019e044fcf18', '90508ebd-f4ce-4315-8372-5afbc60244ac', 'Sim']
+USUÁRIO => Sim 
+RESPOSTA DA DANI =>  {
+  "message": "Verifique na parte frontal do equipamento se há objeto obstruindo ou interferindo a entrada de cartão na leitora.  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "8c7bdabd-af44-4db1-b7b7-019e044fcf18",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "ATM voltou a funcionar",
+        "ATM ainda não operante"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+8c7bdabd-af44-4db1-b7b7-019e044fcf18
+
+['sender.py', '4568543c-a371-4803-9c1b-db10516f07f1', '90508ebd-f4ce-4315-8372-5afbc60244ac', 'ATM', 'voltou', 'a', 'funcionar']
+USUÁRIO => ATM voltou a funcionar 
+RESPOSTA DA DANI =>  {
+  "message": "Que ótimo! 😀 Deseja algo mais?  ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "4568543c-a371-4803-9c1b-db10516f07f1",
+  "component": {
+    "type": "chips",
+    "content": {
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "is_keyboard_enable": false
+    }
+  }
+}
+Correlation id error
+None
+4568543c-a371-4803-9c1b-db10516f07f1
+
+['sender.py', '79f48e31-f026-45c6-8216-9f797847d1a7', '90508ebd-f4ce-4315-8372-5afbc60244ac', 'Sim']
+USUÁRIO => Sim 
+RESPOSTA DA DANI =>  {
+  "message": "Qual o seu problema ? ",
+  "is_end_session": false,
+  "problem_tag": null,
+  "is_solved": null,
+  "correlation_id": "79f48e31-f026-45c6-8216-9f797847d1a7",
+  "component": null
+}
+Correlation id error
+None
+79f48e31-f026-45c6-8216-9f797847d1a7
+
