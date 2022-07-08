@@ -2,7 +2,7 @@
   {
     "sender": "user",
     "message": "Oi",
-    "correlation_id": "fdbeb8a0-4d71-4bdb-9398-51b88bb23653"
+    "correlation_id": "7ff7ce59-bc76-4a62-a582-a46b6fc03e12"
   },
   {
     "sender": "bot",
@@ -10,13 +10,13 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "fdbeb8a0-4d71-4bdb-9398-51b88bb23653",
+    "correlation_id": "7ff7ce59-bc76-4a62-a582-a46b6fc03e12",
     "component": null
   },
   {
     "sender": "user",
     "message": "Leitora",
-    "correlation_id": "72569807-3ddd-48f0-a56f-1f4bb7816bdc"
+    "correlation_id": "056a8e8d-955b-4c0b-82dd-dc15d8826bc6"
   },
   {
     "sender": "bot",
@@ -24,7 +24,7 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "72569807-3ddd-48f0-a56f-1f4bb7816bdc",
+    "correlation_id": "056a8e8d-955b-4c0b-82dd-dc15d8826bc6",
     "component": {
       "type": "chips",
       "content": {
@@ -39,7 +39,7 @@
   {
     "sender": "user",
     "message": "Sim",
-    "correlation_id": "ce660de5-3665-4597-bda6-e251ef451958"
+    "correlation_id": "734ac91f-9f82-4679-8a5b-2874015d42d9"
   },
   {
     "sender": "bot",
@@ -47,7 +47,7 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "ce660de5-3665-4597-bda6-e251ef451958",
+    "correlation_id": "734ac91f-9f82-4679-8a5b-2874015d42d9",
     "component": {
       "type": "chips",
       "content": {
@@ -62,15 +62,15 @@
   {
     "sender": "user",
     "message": "ATM voltou a funcionar",
-    "correlation_id": "ae86b493-2252-4637-b10c-79b3fcb9e9b3"
+    "correlation_id": "840ba7b3-ed70-4fee-9bbc-82789284d683"
   },
   {
     "sender": "bot",
-    "message": "Que ótimo! 😀 Deseja algo mais?  ",
+    "message": "Conseguimos resolver seu problema.  Que ótimo! 😀 Deseja algo mais?  ",
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "ae86b493-2252-4637-b10c-79b3fcb9e9b3",
+    "correlation_id": "840ba7b3-ed70-4fee-9bbc-82789284d683",
     "component": {
       "type": "chips",
       "content": {
@@ -85,7 +85,7 @@
   {
     "sender": "user",
     "message": "Sim",
-    "correlation_id": "27d62420-093b-4236-9ec1-c04c1d43b76d"
+    "correlation_id": "1310da17-0b35-41c7-b492-498ff3b40794"
   },
   {
     "sender": "bot",
@@ -93,7 +93,7 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "27d62420-093b-4236-9ec1-c04c1d43b76d",
+    "correlation_id": "1310da17-0b35-41c7-b492-498ff3b40794",
     "component": null
   }
 ]

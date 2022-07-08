@@ -2,7 +2,7 @@
   {
     "sender": "user",
     "message": "Oi",
-    "correlation_id": "e534a632-8657-4bac-ab79-5c2ee53afa04"
+    "correlation_id": "bc95cb48-e2f8-4579-856f-51d13240bf5c"
   },
   {
     "sender": "bot",
@@ -10,13 +10,13 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "e534a632-8657-4bac-ab79-5c2ee53afa04",
+    "correlation_id": "bc95cb48-e2f8-4579-856f-51d13240bf5c",
     "component": null
   },
   {
     "sender": "user",
     "message": "Leitora",
-    "correlation_id": "fcac1d97-8267-4a00-a319-e20b9a79753e"
+    "correlation_id": "13dcb35c-bcaa-41d5-9b6d-2af21cfdb1ed"
   },
   {
     "sender": "bot",
@@ -24,7 +24,7 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "fcac1d97-8267-4a00-a319-e20b9a79753e",
+    "correlation_id": "13dcb35c-bcaa-41d5-9b6d-2af21cfdb1ed",
     "component": {
       "type": "chips",
       "content": {
@@ -39,7 +39,7 @@
   {
     "sender": "user",
     "message": "Não",
-    "correlation_id": "6213d120-870e-4c78-9a39-510921b202ce"
+    "correlation_id": "6bb96ce2-d898-4782-a43b-e32e4d29ade1"
   },
   {
     "sender": "bot",
@@ -47,7 +47,7 @@
     "is_end_session": false,
     "problem_tag": null,
     "is_solved": null,
-    "correlation_id": "6213d120-870e-4c78-9a39-510921b202ce",
+    "correlation_id": "6bb96ce2-d898-4782-a43b-e32e4d29ade1",
     "component": {
       "type": "chips",
       "content": {
@@ -62,7 +62,7 @@
   {
     "sender": "user",
     "message": "Não",
-    "correlation_id": "cd32ecdb-615c-44ea-afef-a3bb14bd5a8b"
+    "correlation_id": "82754fd5-1a5f-4281-b9c6-9abf477c7c40"
   },
   {
     "sender": "bot",
@@ -72,7 +72,7 @@
       "#000"
     ],
     "is_solved": false,
-    "correlation_id": "cd32ecdb-615c-44ea-afef-a3bb14bd5a8b",
+    "correlation_id": "82754fd5-1a5f-4281-b9c6-9abf477c7c40",
     "component": null
   }
 ]
